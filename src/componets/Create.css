@@ -1,0 +1,44 @@
+.create__inputt {
+    width: 65%;
+    height: 40px;
+    padding: 0 13px;
+    border: 1px solid #efefef;
+    outline: none;
+    border-radius: 2px;
+  }
+  .create__second {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .file {
+    display: none;
+  }
+  .camera {
+    color: #3a7df8;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .create__second-a {
+    flex: 1;
+  }
+  .create__second-b {
+    flex: 1;
+    text-align: right;
+  }
+  .btn-sweet {
+    background: #3aa3f8;
+    color: var(--white);
+    text-decoration: none;
+    border: none;
+    padding: 6px 10px;
+    margin-right: 70%;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  @media (max-width: 765px){
+    .create {
+      width: 90%;
+      margin: 15px auto;
+    }
+  }

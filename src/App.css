@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=PT+Sans+Caption:wght@400;700&display=swap');
+
+/*acá las fuentes que usé: 
+font-family: 'East Sea Dokdo', cursive;
+font-family: 'PT Sans Caption', sans-serif; */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ :root{
+   --white: #ffffff;
+   --black: #000000;
+ }
+body{
+  font-family: 'PT Sans Caption', sans-serif;
+  background: #edecee;
+}
+::-webkit-input-placeholder {
+  /* Edge */
+  color: #8e8e8e;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #8e8e8e;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+::placeholder {
+  color: #8e8e8e;
+  font-weight: 300;
+  font-size: 12px;
+}
+.container {
+  width: 100%;
+  padding: 0 200px;
+  margin-top: 80px;
+}
+@media (max-width: 765px){
+  .container {
+    padding: 0 20px;
+  }
+}

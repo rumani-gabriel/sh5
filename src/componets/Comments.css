@@ -1,0 +1,32 @@
+.comments {
+    margin-top: 10px;
+  }
+  .comments__section{
+    width: 100%;
+  }
+
+  .comment__input {
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    border-left: none;
+    border-right: none;
+    padding: 0 15px;
+    outline: none;
+  }
+  .comments__container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 0 10px 10px 10px;
+  }
+  .comments__container-name {
+    margin-right: 8px;
+    text-transform: capitalize;
+  }
+  .comments__container-msg {
+    font-size: 14px;
+    color: rgb(163, 153, 153);
+    font-weight: 300;
+  }
